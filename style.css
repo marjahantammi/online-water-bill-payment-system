@@ -1,0 +1,451 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Scheherazade New', serif;
+}
+
+/* common css */
+
+.blue{
+  background-color: #1189f2;
+}
+
+.green{
+  background-color: #11f235;
+}
+
+.purple{
+  background-color: #eb11f2;
+}
+
+red-pink{
+  background-color: #f21152;
+}
+
+.pest{
+  background-color: #11f2f2;
+}
+
+.yellow{
+  background-color: #f2e411;
+}
+
+.red{
+  background-color: #f21118;
+}
+
+
+.color1{
+  background-color: gray;
+}
+
+.padding-top{
+  padding-top: 70px;
+
+}
+.txt-right{
+  text-align: right;
+}
+.float-left{
+   float:left;
+}
+.float-right{
+   float:right;
+}
+
+.txt-right{
+  text-align: right;
+}
+
+.txt-left{
+  text-align: left;
+}
+
+.txt-center{
+  text-align: center;
+}
+
+.txt-justify{
+  text-align: justify;
+}
+
+
+.clear-both{
+  clear: both;
+}
+.clear-left{
+  clear: left;
+}
+.clear-right{
+  clear: right;
+}
+
+.aline-top{
+  align-items: flex-start;
+}
+
+
+.wrapper {
+    height: 100%;
+    position: relative;
+  }
+
+  .mainbody{
+    /* background-color: rgba(95, 158, 160, 0.432); */
+    
+    
+  }
+
+  .container{
+    width: 1321px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    
+  }
+
+
+  .pjct-nam{
+ 
+    padding-top: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 55px;
+    }
+
+    .all-btn{
+      margin: 5px 5px;
+      
+    }
+
+    .txt-btn{
+   
+      color: red;
+      padding-left: 500px;
+      padding-top: 15px;
+      padding-bottom: 19px;
+      font-weight: 600;
+      margin: 10px 20px;
+      
+      
+    }
+
+    button{
+
+    
+      padding: 10px 10px;
+      margin: 10px 10px;
+      font-size: 15px;
+      color: #f21152;
+      border-radius: 5px;
+      background-color: rgba(0, 0, 0, 0.274);
+      border: 2px solid #f21152;
+     
+    }
+
+    .sing-out{
+      margin-left: 40%;
+      background-color: #f21118;
+     color: #ffffff;
+      
+    }
+    
+    button:hover{
+      background-color: #f211517a;
+    }
+    .start{
+      text-align: center;
+      font-size: 40px;
+      font-weight: 600;
+    }    
+  
+    .card-containers{
+      display: flex;
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+       
+    }
+    .card{
+      width: 300px;
+      margin: 40px 50px;
+      box-sizing: border-box;
+      box-shadow: 1px 2px 4px white;
+      background-color: rgba(0, 0, 0, 0.356);
+      
+    }
+    
+    .card-body{
+
+      padding-top: 10px;
+
+ 
+
+    }
+    
+    .card-tittle{
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 10px;
+      background-color: #f21152;
+      color: #ffffff;
+      
+    }
+    
+    .card-desp{
+      
+      text-align: center;
+      padding: 30px 30px;
+      font-size: 60px;
+      border: 2px solid #f21152;
+      background-color: cadetblue;
+      
+      
+    }
+
+    .card:hover{
+      background-color: cadetblue;
+    }
+
+
+
+  .billing-head{
+    padding:  10px 10px;
+    font-size: 50px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px 10px;
+    background-color: cadetblue;
+    color: #ffffff;
+    
+  }
+
+  .bill-size{
+    font-size: 60px;
+    border: 2px solid #f21152;
+  }
+
+  .bill-bg{
+    background-color: cadetblue;
+    
+  }
+
+  table, td, th {  
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+  table,th{
+    font-size: 30px;
+    
+  }
+
+  th{
+    
+    background-color: grey;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+
+
+  .action-btn{
+   
+   box-sizing: border-box;
+   text-align: center;
+   
+  }
+
+  button1{
+
+    margin: 5px 5px;
+    width: 30px;
+    height: 10px;
+    border: 1px solid rgb(112, 104, 104);
+    margin: 5px 5px;
+    background-color: cadetblue;
+    color: #ffffff;
+    padding: 0px 11px;
+ 
+  }
+  button2{
+    margin: 5px 5px;
+    width: 30px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: red;
+    color: #ffffff;
+    padding: 0px 5px;
+  }
+
+  .view{
+    height: 31px;
+    width: 60px;
+    
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+
+  .user-head{
+    padding:  10px 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    
+    margin: 10px 10px;
+    background-color: cadetblue;
+    color: #ffffff;
+    
+  }
+
+  button3{
+
+    margin: 5px 5px;
+    width: 30px;
+    height: 10px;
+    border: 1px solid rgb(112, 104, 104);
+    margin: 5px 5px;
+    background-color: grey;
+    color: #ffffff;
+    padding: 2px 11px;
+    border-radius: 11px;
+ 
+  }
+  button4{
+    margin: 5px 5px;
+    width: 30px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: red;
+    color: #ffffff;
+    padding: 0px 21px;
+    border-radius: 11px;
+  }
+  button5{
+
+    margin: 5px 5px;
+    width: 30px;
+    height: 10px;
+    border: 1px solid rgb(112, 104, 104);
+    margin: 5px 5px;
+    background-color: gray;
+    color: #ffffff;
+    padding: 2px 11px;
+    border-radius: 11px;
+ 
+  }
+
+  button6{
+    margin: 5px 5px;
+    width: 30px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: red;
+    color: #ffffff;
+    padding: 0px 11px;
+    border-radius: 11px;
+  }
+
+  
+  .containers{
+    width: 1321px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    box-sizing: border-box;
+    background-color: crimson;
+    padding: 80px 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+
+  
+
+
+.idcard{
+  width: 300px;
+  margin: 10px ;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 4px black ;
+}
+
+.img-style{
+  width: 100%;
+}
+
+.idcard-body{
+  padding: 10px;
+  background-color: #761f8c;
+  color: white;
+}
+
+.idcard-tittle{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.idcard-desp{
+ 
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.idcard:hover{
+  box-shadow: 5px 8px 8px black;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+  
+}
+
+.footer{
+  width: 1321px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+
+
